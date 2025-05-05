@@ -1,0 +1,25 @@
+{
+    "name": "builder/block-builder",
+    "description": "This is page builder to build a dynamic page.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Builder\\BlockBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Milankumar Hirapra",
+            "email": "milan@buddyboss.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Builder\\BlockBuilder\\PageBuilderServiceProvider"
+            ]
+        }
+    }
+}
